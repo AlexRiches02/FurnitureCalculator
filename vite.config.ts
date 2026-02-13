@@ -5,6 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: "https://alexriches02.github.io/FurnitureCalculator/",
   server: {
     host: "::",
     port: 8080,
